@@ -5,6 +5,7 @@
     "strict": true,
     "strictNullChecks": true,
     "moduleResolution": "node",
+    "jsx": "preserve",
     "noEmit": true,
     "esModuleInterop": true
   }
