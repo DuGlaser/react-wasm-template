@@ -6,6 +6,7 @@ interface Props {
 }
 
 const App: FC<Props> = (props) => {
+  props.wasm.greeting();
   return (
     <>
       <h1>Hello WASM!!</h1>
