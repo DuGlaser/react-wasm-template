@@ -1,15 +1,37 @@
 # react-wasm-template
 
-WIP!!
-
-# command
-ビルドする
+## dev
+### wasm
+```zsh
+$ cd wasm-module
 ```
+
+#### 📦 build
+```zsh
 $ wasm-pack build
-$ yarn webpack
 ```
 
-開発
+#### 🔗 link
+```zsh
+$ cd pkg
+
+$ yarn link
+# or
+$ npm link
 ```
-$ yarn webpack-dev-server
+### client
+#### :wrench: Init
+```zsh
+$ yarn link <your-project-name>
+$ yarn
+
+# or
+
+$ npm link <your-project-name>
+$ npm install 
+```
+
+#### ⚛️ start dev server
+```zsh
+$ yarn start
 ```
