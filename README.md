@@ -38,3 +38,8 @@ $ npm install
 ```zsh
 $ yarn start
 ```
+
+## reference
+> https://prestonrichey.com/blog/react-rust-wasm/
+>
+> https://medium.com/@rossbulat/webassembly-modules-an-introduction-5554b8982402
