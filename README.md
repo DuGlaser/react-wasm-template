@@ -15,9 +15,12 @@ $ wasm-pack build
 ```zsh
 $ cd pkg
 
-$ yarn link
-# or
+# recommended
 $ npm link
+
+# or
+
+$ yarn link
 ```
 ### client
 ```zsh
@@ -25,13 +28,14 @@ $ cd client
 ```
 #### :wrench: Init
 ```zsh
-$ yarn link <your-project-name>
-$ yarn
+# recommended
+$ npm link <your-project-name>
+$ npm install 
 
 # or
 
-$ npm link <your-project-name>
-$ npm install 
+$ yarn link <your-project-name>
+$ yarn
 ```
 
 #### ⚛️ start dev server
