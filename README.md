@@ -20,6 +20,9 @@ $ yarn link
 $ npm link
 ```
 ### client
+```zsh
+$ cd client
+```
 #### :wrench: Init
 ```zsh
 $ yarn link <your-project-name>
